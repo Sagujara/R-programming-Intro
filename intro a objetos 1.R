@@ -74,7 +74,8 @@ v <- 16:20
 b <- 21:25
 length(c)
 v <- 16:20
-y <- rbind(z, x, c, v, b)
+y <- rbind(z, x, c, v, b)d <- c(z, 32)
+
 print(y)
 x = matrix(1:25, nrow = 5, ncol = 5)
 print(x)
@@ -82,3 +83,5 @@ x*y
 z <- x*y
 length(z)
 dim(z)
+d <- c(z, 32)
+length(z)
